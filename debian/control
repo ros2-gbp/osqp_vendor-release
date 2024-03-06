@@ -1,0 +1,12 @@
+Source: ros-rolling-osqp-vendor
+Section: misc
+Priority: optional
+Maintainer: Esteve Fernandez <esteve.fernandez@autoware.org>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, ament-cmake-copyright <!nocheck>, ament-cmake-cppcheck <!nocheck>, ament-cmake-cpplint <!nocheck>, ament-cmake-flake8 <!nocheck>, ament-cmake-lint-cmake <!nocheck>, ament-cmake-pep257 <!nocheck>, ament-cmake-uncrustify <!nocheck>, ament-cmake-xmllint <!nocheck>, ament-lint <!nocheck>, git, ros-environment, ros-rolling-ros-workspace
+Homepage: https://github.com/oxfordcontrol/osqp
+Standards-Version: 3.9.2
+
+Package: ros-rolling-osqp-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-ros-workspace
+Description: Wrapper around osqp that ships with a CMake module
