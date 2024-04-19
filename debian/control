@@ -1,0 +1,12 @@
+Source: ros-jazzy-osqp-vendor
+Section: misc
+Priority: optional
+Maintainer: Esteve Fernandez <esteve.fernandez@autoware.org>
+Build-Depends: debhelper (>= 9.0.0), git, ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ros-environment, ros-jazzy-ros-workspace
+Homepage: https://github.com/oxfordcontrol/osqp
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-osqp-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ros-workspace
+Description: Wrapper around osqp that ships with a CMake module
