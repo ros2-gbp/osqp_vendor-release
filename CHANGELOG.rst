@@ -2,6 +2,13 @@
 Changelog for package osqp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.0 (2026-08-03)
+------------------
+* Update OSQP version to v1.0.0 (`#1 <https://github.com/moveit/osqp_vendor/issues/1>`_)
+* Update .github tests (`#20 <https://github.com/tier4/osqp_vendor/issues/20>`_)
+* Update OSQP -drop ros1 (`#22 <https://github.com/tier4/osqp_vendor/issues/22>`_)
+* Contributors: Sebastian Castro, mosfet80
+
 0.2.0 (2022-10-23)
 ------------------
 * feat: enable to build with both ros1 and ros2 (`#16 <https://github.com/tier4/osqp_vendor/issues/16>`_)

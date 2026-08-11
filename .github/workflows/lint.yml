@@ -13,20 +13,20 @@ jobs:
       fail-fast: false
       matrix:
         ros_distribution:
-          - foxy
-          - galactic
+          - jazzy
+          - humble
           - rolling
         include:
-          # Foxy Fitzroy (May 2020 - May 2023)
-          - docker_image: rostooling/setup-ros-docker:ubuntu-focal-ros-foxy-ros-base-latest
-            ros_distribution: foxy
+          # Jazzy Jalisco (May 2024 - May 2029)
+          - docker_image: rostooling/setup-ros-docker:ubuntu-noble-ros-jazzy-ros-base-latest
+            ros_distribution: jazzy
             ros_version: 2
-          # Galactic Geochelone (May 2021 - November 2022)
-          - docker_image: rostooling/setup-ros-docker:ubuntu-focal-ros-galactic-ros-base-latest
-            ros_distribution: galactic
+          # Humble Hawksbill (May 2022 - May 2027)
+          - docker_image: rostooling/setup-ros-docker:ubuntu-jammy-ros-humble-ros-base-latest
+            ros_distribution: humble
             ros_version: 2
           # Rolling Ridley  (June 2020 - Present)
-          - docker_image: rostooling/setup-ros-docker:ubuntu-focal-ros-rolling-ros-base-latest
+          - docker_image: rostooling/setup-ros-docker:ubuntu-noble-ros-rolling-ros-base-latest
             ros_distribution: rolling
             ros_version: 2
         linter:
@@ -34,8 +34,8 @@ jobs:
           - xmllint
           - lint_cmake
     steps:
-      - uses: actions/checkout@v2.5.0
-      - uses: ros-tooling/action-ros-lint@0.1.3
+      - uses: actions/checkout@v5
+      - uses: ros-tooling/action-ros-lint@0.1.4
         with:
           linter: ${{ matrix.linter }}
           distribution: ${{ matrix.ros_distribution }}
