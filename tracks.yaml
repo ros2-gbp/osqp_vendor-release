@@ -23,7 +23,7 @@ tracks:
     release_tag: :{version}
     ros_distro: foxy
     vcs_type: git
-    vcs_uri: https://github.com/tier4/osqp_vendor.git
+    vcs_uri: https://github.com/moveit/osqp_vendor.git
     version: :{auto}
   galactic:
     actions:
@@ -49,7 +49,7 @@ tracks:
     release_tag: :{version}
     ros_distro: galactic
     vcs_type: git
-    vcs_uri: https://github.com/tier4/osqp_vendor.git
+    vcs_uri: https://github.com/moveit/osqp_vendor.git
     version: :{auto}
   humble:
     actions:
@@ -75,7 +75,7 @@ tracks:
     release_tag: :{version}
     ros_distro: humble
     vcs_type: git
-    vcs_uri: https://github.com/tier4/osqp_vendor.git
+    vcs_uri: https://github.com/moveit/osqp_vendor.git
     version: :{auto}
   iron:
     actions:
@@ -101,7 +101,7 @@ tracks:
     release_tag: :{version}
     ros_distro: iron
     vcs_type: git
-    vcs_uri: https://github.com/tier4/osqp_vendor.git
+    vcs_uri: https://github.com/moveit/osqp_vendor.git
     version: :{auto}
   jazzy:
     actions:
@@ -127,7 +127,7 @@ tracks:
     release_tag: :{version}
     ros_distro: jazzy
     vcs_type: git
-    vcs_uri: https://github.com/tier4/osqp_vendor.git
+    vcs_uri: https://github.com/moveit/osqp_vendor.git
     version: :{auto}
   kilted:
     actions:
@@ -153,7 +153,7 @@ tracks:
     release_tag: :{version}
     ros_distro: kilted
     vcs_type: git
-    vcs_uri: https://github.com/tier4/osqp_vendor.git
+    vcs_uri: https://github.com/moveit/osqp_vendor.git
     version: :{auto}
   lyrical:
     actions:
@@ -181,7 +181,7 @@ tracks:
     release_tag: :{version}
     ros_distro: lyrical
     vcs_type: git
-    vcs_uri: https://github.com/tier4/osqp_vendor.git
+    vcs_uri: https://github.com/moveit/osqp_vendor.git
     version: :{auto}
   noetic:
     actions:
@@ -207,7 +207,7 @@ tracks:
     release_tag: :{version}
     ros_distro: noetic
     vcs_type: git
-    vcs_uri: https://github.com/tier4/osqp_vendor.git
+    vcs_uri: https://github.com/moveit/osqp_vendor.git
     version: :{auto}
   rolling:
     actions:
@@ -235,5 +235,5 @@ tracks:
     release_tag: :{version}
     ros_distro: rolling
     vcs_type: git
-    vcs_uri: https://github.com/tier4/osqp_vendor.git
+    vcs_uri: https://github.com/moveit/osqp_vendor.git
     version: :{auto}

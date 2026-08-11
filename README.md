@@ -6,7 +6,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: https://github.com/ros2-gbp/osqp_vendor-release.git
 - rosdistro version: `0.0.4-2`
 - old version: `0.0.4-2`
@@ -29,7 +29,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: https://github.com/ros2-gbp/osqp_vendor-release.git
 - rosdistro version: `0.0.4-3`
 - old version: `0.0.4-3`
@@ -52,7 +52,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: https://github.com/ros2-gbp/osqp_vendor-release.git
 - rosdistro version: `0.0.4-1`
 - old version: `0.0.4-1`
@@ -75,7 +75,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: https://github.com/ros2-gbp/osqp_vendor-release.git
 - rosdistro version: `0.0.4-1`
 - old version: `0.0.4-1`
@@ -98,7 +98,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: https://github.com/tier4/osqp_vendor-release.git
 - rosdistro version: `0.0.3-2`
 - old version: `0.0.3-2`
@@ -121,7 +121,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: https://github.com/tier4/osqp_vendor-release.git
 - rosdistro version: `0.0.3-1`
 - old version: `0.0.3-1`
@@ -144,7 +144,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: https://github.com/tier4/osqp_vendor-release.git
 - rosdistro version: `0.0.3-1`
 - old version: `0.0.3-1`
@@ -167,7 +167,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: unknown
 - rosdistro version: `null`
 - old version: `null`
@@ -190,7 +190,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: unknown
 - rosdistro version: `null`
 - old version: `null`
@@ -213,7 +213,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: https://github.com/tier4/osqp_vendor-release.git
 - rosdistro version: `0.0.2-1`
 - old version: `0.0.3-1`
@@ -236,7 +236,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: https://github.com/tier4/osqp_vendor-release.git
 - rosdistro version: `0.0.2-1`
 - old version: `0.0.2-1`
@@ -259,7 +259,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: unknown
 - rosdistro version: `null`
 - old version: `null`
@@ -282,7 +282,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: https://github.com/tier4/osqp_vendor-release.git
 - rosdistro version: `0.0.1-3`
 - old version: `0.0.1-3`
@@ -305,7 +305,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: unknown
 - rosdistro version: `null`
 - old version: `0.0.1-2`
@@ -328,7 +328,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: unknown
 - rosdistro version: `null`
 - old version: `0.0.1-1`
@@ -351,7 +351,7 @@ The `osqp_vendor` package was released.
 
 Version of package(s) in repository `osqp_vendor`:
 
-- upstream repository: https://github.com/tier4/osqp_vendor.git
+- upstream repository: https://github.com/moveit/osqp_vendor.git
 - release repository: unknown
 - rosdistro version: `null`
 - old version: `null`
@@ -364,5 +364,3 @@ Versions of tools used:
 - rosdep version: `0.19.0`
 - rosdistro version: `0.8.3`
 - vcstools version: `0.1.42`
-
-
