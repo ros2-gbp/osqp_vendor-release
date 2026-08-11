@@ -1,17 +1,11 @@
-cmake_minimum_required(VERSION 3.9)
+cmake_minimum_required(VERSION 3.16)
 
 project(osqp_vendor)
 
-find_package(ros_environment REQUIRED)
-
-if($ENV{ROS_VERSION} EQUAL 1)
-  find_package(catkin REQUIRED)
-elseif($ENV{ROS_VERSION} EQUAL 2)
-  find_package(ament_cmake REQUIRED)
-endif()
+find_package(ament_cmake REQUIRED)
 
 macro(build_osqp)
-  set(git_tag "v0.6.2")
+  set(git_tag "v1.0.0")
   set(extra_cmake_args)
 
   get_property(multi_config GLOBAL PROPERTY GENERATOR_IS_MULTI_CONFIG)
@@ -45,19 +39,14 @@ endmacro()
 
 build_osqp()
 
-if($ENV{ROS_VERSION} EQUAL 1)
-  catkin_package(
-    LIBRARIES osqp
-    DEPENDS osqp
-    CFG_EXTRAS osqp_vendor-extras.cmake)
-elseif($ENV{ROS_VERSION} EQUAL 2)
-  ament_export_libraries(osqp)
-  ament_export_dependencies(osqp)
 
-  if(BUILD_TESTING)
-    find_package(ament_lint_auto REQUIRED)
-    ament_lint_auto_find_test_dependencies()
-  endif()
+ament_export_libraries(osqp)
+ament_export_dependencies(osqp)
 
-  ament_package(CONFIG_EXTRAS cmake/osqp_vendor-extras.cmake)
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  ament_lint_auto_find_test_dependencies()
 endif()
+
+ament_package(CONFIG_EXTRAS cmake/osqp_vendor-extras.cmake)
+
