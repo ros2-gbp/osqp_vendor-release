@@ -1,3 +1,26 @@
+## osqp_vendor (lyrical) - 1.0.0-1
+
+The packages in the `osqp_vendor` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release osqp_vendor --rosdistro lyrical` on `Tue, 11 Aug 2026 12:34:15 -0000`
+
+The `osqp_vendor` package was released.
+
+Version of package(s) in repository `osqp_vendor`:
+
+- upstream repository: https://github.com/moveit/osqp_vendor.git
+- release repository: https://github.com/ros2-gbp/osqp_vendor-release.git
+- rosdistro version: `0.2.0-5`
+- old version: `0.2.0-5`
+- new version: `1.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## osqp_vendor (rolling) - 1.0.0-1
 
 The packages in the `osqp_vendor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release osqp_vendor --rosdistro rolling` on `Tue, 11 Aug 2026 12:26:47 -0000`
